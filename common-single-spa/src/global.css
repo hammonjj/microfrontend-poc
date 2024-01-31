@@ -1,0 +1,22 @@
+:root {
+  --bg-color: #151c2c;
+  --bg-soft-color: #182237;
+  --text-color: #ffffff;
+  --text-soft-color: #b7bac1;
+
+  --inter-font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--inter-font-family);
+}
+
+.soft-background {
+  background-color: var(--bg-soft-color);
+}
+
+.soft-text {
+  color: var(--text-soft-color);
+}
